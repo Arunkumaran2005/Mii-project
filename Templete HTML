@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Search Donor</title></head>
+<body>
+    <h2>Search Donor</h2>
+    <form method="post">
+        Blood Group: <input type="text" name="blood_group"><br>
+        City: <input type="text" name="city"><br>
+        <button type="submit">Search</button>
+    </form>
+    <hr>
+    {% if donors %}
+        <h3>Matching Donors:</h3>
+        <ul>
+        {% for donor in donors %}
+            <li>{{ donor[1] }} - {{ donor[3] }} - {{ donor[4] }} - {{ donor[5] }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>

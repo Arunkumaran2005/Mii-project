@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #d9534f;
+}
+
+a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0275d8;
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
